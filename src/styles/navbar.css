@@ -45,6 +45,55 @@
     cursor: pointer;
 }
 
+.social-icons-container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 35%;
+    left: 0;
+}
+
+.social-icons-item {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -100px;
+    transition: margin-left 0.3s;
+    padding: 15px;
+}
+
+.social-icons-item:hover {
+    margin-left: -10px;
+}
+
+.linkedin {
+    background-color: #3675b2;
+}
+
+.github {
+    background-color: #333333;
+}
+
+.email {
+    background-color: #76BB75;
+}
+
+.resume {
+    background-color: #808080;
+}
+
+.social-icons-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: #808080; */
+    color: #fff;
+    text-decoration: none;
+}
+
 @media (min-width: 768px) {
     .navbar-options {
         display: flex;
