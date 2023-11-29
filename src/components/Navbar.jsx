@@ -45,12 +45,12 @@ function Navbar() {
       <div className='social-icons-container'>
         <ul>
           <li className='social-icons-item linkedin'>
-            <a className='social-icons-link' href="/">
+            <a className='social-icons-link' href="https://www.linkedin.com/in/gerardo-arriaza-pantaleon1/">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='social-icons-item github'>
-            <a className='social-icons-link' href="/">
+            <a className='social-icons-link' href="https://github.com/GerardoAP22">
               Github <FaGithub size={30} />
             </a>
           </li>

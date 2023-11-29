@@ -120,4 +120,8 @@
     .navbar-options {
         display: none;
     }
+
+    .social-icons-container {
+        display: none; 
+    }
 }
