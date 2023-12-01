@@ -1,3 +1,5 @@
+/* Navbar Styles */
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -7,6 +9,8 @@
     align-items: center;
     padding: 0 4px;
     color: #000080;
+    top: 0; /* Set the top property to 0 */
+    z-index: 1000; /* Set a higher z-index to ensure it's above other elements */
 }
 
 .hidden {
@@ -19,7 +23,6 @@
     white-space: nowrap;
     cursor: pointer;
 }
-
 
 .mobile-menu {
     display: flex;
@@ -68,6 +71,8 @@
     margin-left: -10px;
 }
 
+/* Social Icons Colors */
+
 .linkedin {
     background-color: #3675b2;
 }
@@ -89,10 +94,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* color: #808080; */
     color: #fff;
     text-decoration: none;
 }
+
+/* Media Queries */
 
 @media (min-width: 768px) {
     .navbar-options {
@@ -122,6 +128,6 @@
     }
 
     .social-icons-container {
-        display: none; 
+        display: none;
     }
 }
