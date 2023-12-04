@@ -1,18 +1,75 @@
+body {
+    margin: 0;
+}
+
 .home-comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 150px;
+}
+
+.home-image-container {
     width: 100%;
-    height: 100vh;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.home-image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.home-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(315deg, #000080, #b6b6da);
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.image {
+    position: absolute;
+    inset: 5px;
+    border: 2px solid navy;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .home-container {
     max-width: 1000px;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
+    padding: 16px;
+    text-align: left;
 }
 
 .home-hello-txt {
@@ -20,23 +77,46 @@
 }
 
 .home-name-txt {
-    font-size: 2.25rem;
+    font-size: 25px;
     font-weight: bold;
+    flex-shrink: 1;
     color: #8c92ac;
 }
 
 .home-role-txt {
-    font-size: 2.25rem;
+    font-size: 1rem;
     font-weight: bold;
-    color: #717999;
+    flex-shrink: 1;
+    color: #5C6380;
 }
 
-@media (min-width: 640px) {
+.home-desc-txt {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 700px;
+    margin: 0;
+    color: #5C6380;
+}
+
+
+@media (min-width: 768px) {
+    .home-comp {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 183px;
+        margin-top: 150px;
+    }
+
+    .home-image-container {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
     .home-name-txt {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .home-role-txt {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 }
