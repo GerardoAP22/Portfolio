@@ -54,10 +54,19 @@
     padding: 0 2rem;
 }
 
+.about-desc-container {
+    padding: 0 2rem;
+    text-align: left;
+}
+
 @media (min-width: 640px) {
     .about-title-container {
         text-align: right;
         padding-left: 2rem;
+    }
+
+    .about-desc-container {
+        padding: 0;
     }
 
     .about-text-container {
