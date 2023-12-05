@@ -98,6 +98,23 @@ body {
     color: #5C6380;
 }
 
+.home-button {
+    color: white;
+    background-color: #000080;
+    border-color: #000080;
+    border-width: 2px;
+    padding: 6px 12px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.home-button:hover {
+    color: white;
+    background-color: #2727f1;
+    border-color: #2727f1;
+}
+
 
 @media (min-width: 768px) {
     .home-comp {

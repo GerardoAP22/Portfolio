@@ -21,8 +21,11 @@ function Home() {
             <p className='home-desc-txt'>I am a full-stack developer who is leaning a bit more on 
                 front-end development. I'm focused on building responsive 
             full-stack web applications.</p>
+
             <div className='home-button-container'>
-                <button>View Projects <HiArrowNarrowRight /></button>
+                <button className='home-button'>View Projects 
+                        <HiArrowNarrowRight />
+                </button>
             </div>
 
         </div>
