@@ -13,9 +13,9 @@ function Skills() {
   return (
     <div className='skills'>
         <div className='skills-container'>
-            <div>
+            <div className='skills-text-container'>
                 <p className='skills-title'>Experience</p>
-                <p>// Technologies I have practical experience with.</p>
+                <p className='skills-subtext'>// Technologies I have practical experience with.</p>
             </div>
             <div>
                 <div>
