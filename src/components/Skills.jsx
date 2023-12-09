@@ -23,6 +23,48 @@ function Skills() {
                     <p>HTML</p>
                 </div>
             </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={CSS} alt='CSS-logo'/>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={JS} alt='JS-logo'/>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={REACT} alt='React-logo'/>
+                    <p>React</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={NODE} alt='NODE-logo'/>
+                    <p>Node.js</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={MONOGO} alt='Mongo-logo'/>
+                    <p>MongoDB</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={TS} alt='TS-logo'/>
+                    <p>TypeScript</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img className='skills-logo' src={JAVA} alt='Java-logo'/>
+                    <p>Java</p>
+                </div>
+            </div>
         </div>
     
     </div>
