@@ -1,5 +1,7 @@
 .skills {
     color: #5C6380;
+    width: 100%;
+    height: 100vh;
 }
 
 .skills-container {
@@ -30,16 +32,45 @@
 
 .skills-subtext {
     padding: 1.5rem 0;
+    font-size: large;
+}
+
+.skills-logo-containers {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.skills-divs {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+    background-color: rgba(229, 231, 234, 0.5);
+}
+
+.skills-divs:hover {
+    transform: scale(1.1);
 }
 
 .skills-logo {
     width: 80px;
+    padding: 6px 0;
     margin-left: auto;
     margin-right: auto;
+}
+
+.skills-name {
+    margin: 0.5rem 0;
 }
 
 @media (min-width: 640px) {
     .skills-text-container {
         margin-left: 0;
+    }
+
+    .skills-logo-containers {
+        grid-template-columns: repeat(4, 1fr);
     }
 }

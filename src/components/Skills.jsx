@@ -14,57 +14,51 @@ function Skills() {
     <div className='skills'>
         <div className='skills-container'>
             <div className='skills-text-container'>
-                <p className='skills-title'>Experience</p>
-                <p className='skills-subtext'>// Technologies I have practical experience with.</p>
+                <p className='skills-title'>Skills</p>
+                <p className='skills-subtext'>Technologies I have experience with.</p>
             </div>
-            <div>
-                <div>
+            <div className='skills-logo-containers'>
+                <div className='skills-divs'>
                     <img className='skills-logo' src={HTML} alt='HTML-logo'/>
-                    <p>HTML</p>
+                    <p className='skills-name'>HTML</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={CSS} alt='CSS-logo'/>
-                    <p>CSS</p>
+                    <p className='skills-name'>CSS</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={JS} alt='JS-logo'/>
-                    <p>JavaScript</p>
+                    <p className='skills-name'>JavaScript</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={REACT} alt='React-logo'/>
-                    <p>React</p>
+                    <p className='skills-name'>React</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={NODE} alt='NODE-logo'/>
-                    <p>Node.js</p>
+                    <p className='skills-name'>Node.js</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={MONOGO} alt='Mongo-logo'/>
-                    <p>MongoDB</p>
+                    <p className='skills-name'>MongoDB</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={TS} alt='TS-logo'/>
-                    <p>TypeScript</p>
+                    <p className='skills-name'>TypeScript</p>
                 </div>
-            </div>
-            <div>
-                <div>
+
+                <div className='skills-divs'>
                     <img className='skills-logo' src={JAVA} alt='Java-logo'/>
-                    <p>Java</p>
+                    <p className='skills-name'>Java</p>
                 </div>
             </div>
+
         </div>
     
     </div>
