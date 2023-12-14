@@ -10,9 +10,8 @@ function Projects() {
           </div>
 
           <div className='projects-grid-container'>
-            <div className=''>
+            <div className='projects-content-container'>
               <div>
-
                 <span>
 
                 </span>
