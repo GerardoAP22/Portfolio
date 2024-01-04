@@ -35,7 +35,6 @@
     width: 100%;
     height: 100vh;
     background-color: #fff;
-    /* Add a background color to the mobile menu */
     z-index: 1001;
 }
 
@@ -45,9 +44,20 @@
     font-size: 36px;
 }
 
-.navbar-options>div {
+.navbar-option {
     padding: 0 8px;
     cursor: pointer;
+}
+
+.navbar-option,
+.mobile-item {
+  text-decoration: none;
+  color: inherit; /* Inherit the parent color */
+}
+
+.navbar-option:visited,
+.mobile-item:visited {
+  color: inherit;
 }
 
 .social-icons-container {
@@ -99,7 +109,6 @@
     text-decoration: none;
 }
 
-/* Media Queries */
 
 @media (min-width: 768px) {
     .navbar-options {

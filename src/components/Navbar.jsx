@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -20,24 +21,23 @@ function Navbar() {
 
       {/* Options */}
       <div className="navbar-options">
-        <div>Home</div>
-        <div>About</div>
-        <div>Skills</div>
-        <div>Projects</div>
-        <div>Contact</div>
+        <Link to="/" className="navbar-option">Home</Link>
+        <Link to="/about" className="navbar-option">About</Link>
+        <Link to="/skills" className="navbar-option">Skills</Link>
+        <Link to="/projects" className="navbar-option">Projects</Link>
+        <Link to="/contact" className="navbar-option">Contact</Link>
       </div>
 
       {/* Hamburger */}
       <div className={!navState ? 'hidden' : 'mobile-menu'}>
-        <div className="mobile-item">Home</div>
-        <div className="mobile-item">About</div>
-        <div className="mobile-item">Skills</div>
-        <div className="mobile-item">Projects</div>
-        <div className="mobile-item">Contact</div>
+        <Link to="/" className="mobile-item">Home</Link>
+        <Link to="/about" className="mobile-item">About</Link>
+        <Link to="/skills" className="mobile-item">Skills</Link>
+        <Link to="/projects" className="mobile-item">Projects</Link>
+        <Link to="/contact" className="mobile-item">Contact</Link>
       </div>
 
       <div onClick={handleHamburgerClick} className="hamburger-container">
-        {/* {!navState ? (<FontAwesomeIcon icon={faBars} size="2x" />) : (<FontAwesomeIcon icon={faTimes} size="2x" />)} */}
         {!navState ? (<FaBars />) : (<FaTimes />)}
       </div>
 
