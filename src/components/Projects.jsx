@@ -8,7 +8,7 @@ import proj5 from '../assets/checkers.png';
 
 function Projects() {
   return (
-    <div className='projects-overall-container'>
+    <div id='projects' className='projects-overall-container'>
 
       <div className='projects-container'>
         <div className='projects-text-container'>

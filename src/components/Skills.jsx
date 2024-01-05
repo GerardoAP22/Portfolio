@@ -11,7 +11,7 @@ import TS from '../assets/typescript.png';
 
 function Skills() {
   return (
-    <div className='skills'>
+    <div id='skills' className='skills'>
         <div className='skills-container'>
             <div className='skills-text-container'>
                 <p className='skills-title'>Skills</p>

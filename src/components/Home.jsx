@@ -5,7 +5,7 @@ import headshot from '../assets/Photo.jpeg';
 
 function Home() {
   return (
-    <div className='home-comp'>
+    <div id='home' className='home-comp'>
         <div className='home-image-container'>
         <div className='home-image'>
           <div className='image'>

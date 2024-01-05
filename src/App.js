@@ -9,12 +9,12 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Navbar id='navbar'/>
+      <Home id='home'/>
+      <About id='about'/>
+      <Skills id='skills'/>
+      <Projects id='projects'/>
+      <Contact id='contact'/>
     </div>
   );
 }

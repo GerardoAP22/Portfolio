@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -13,28 +13,28 @@ function Navbar() {
   }
 
   return (
-    <div className="navbar">
+    <div id='navbar' className="navbar">
       {/* Logo */}
       <div>
-        <div className="navbar-logo-text">Gerardo Arriaza Pantaleon</div>
+        <Link to="home" smooth={true} duration={500} offset={-200} className="navbar-logo-text">Gerardo Arriaza Pantaleon</Link>
       </div>
 
       {/* Options */}
       <div className="navbar-options">
-        <Link to="/" className="navbar-option">Home</Link>
-        <Link to="/about" className="navbar-option">About</Link>
-        <Link to="/skills" className="navbar-option">Skills</Link>
-        <Link to="/projects" className="navbar-option">Projects</Link>
-        <Link to="/contact" className="navbar-option">Contact</Link>
+        <Link to="home" smooth={true} duration={500} offset={-200} className="navbar-option">Home</Link>
+        <Link to="about" smooth={true} duration={500} className="navbar-option">About</Link>
+        <Link to="skills" smooth={true} duration={500} className="navbar-option">Skills</Link>
+        <Link to="projects" smooth={true} duration={500} className="navbar-option">Projects</Link>
+        <Link to="contact" smooth={true} duration={500} className="navbar-option">Contact</Link>
       </div>
 
       {/* Hamburger */}
       <div className={!navState ? 'hidden' : 'mobile-menu'}>
-        <Link to="/" className="mobile-item">Home</Link>
-        <Link to="/about" className="mobile-item">About</Link>
-        <Link to="/skills" className="mobile-item">Skills</Link>
-        <Link to="/projects" className="mobile-item">Projects</Link>
-        <Link to="/contact" className="mobile-item">Contact</Link>
+        <Link to="home" smooth={true} duration={500} offset={-200} className="mobile-item" onClick={handleHamburgerClick}>Home</Link>
+        <Link to="about" smooth={true} duration={500} className="mobile-item" onClick={handleHamburgerClick}>About</Link>
+        <Link to="skills" smooth={true} duration={500} offset={-80}className="mobile-item" onClick={handleHamburgerClick}>Skills</Link>
+        <Link to="projects" smooth={true} duration={500} offset={-80} className="mobile-item" onClick={handleHamburgerClick}>Projects</Link>
+        <Link to="contact" smooth={true} duration={500} className="mobile-item" onClick={handleHamburgerClick}>Contact</Link>
       </div>
 
       <div onClick={handleHamburgerClick} className="hamburger-container">
