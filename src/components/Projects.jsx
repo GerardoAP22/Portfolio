@@ -22,8 +22,8 @@ function Projects() {
           <div className='project-details'>
             <p>FurniTech is an application designed to facilitate the exploration and purchase of a wide array of furniture products. Users have the capability to establish an account, peruse an extensive inventory of furniture items, and conveniently add their selections to the shopping cart for either immediate or deferred acquisition. Inspiration from RH furniture's eccomerce website.</p>
             <div className='project-btns'>
-              <NavLink to='example.com' className='btn'>View</NavLink>
-              <NavLink to='example.com' className='btn'>Source</NavLink>
+              <NavLink to='https://furni-tech.vercel.app/' className='btn'>View</NavLink>
+              <NavLink to='https://github.com/GerardoAP22/FurniTech-frontend' className='btn'>Source</NavLink>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ function Projects() {
             <p>Game Day Gold is a sports betting app designed for both beginners and enthusiasts. Powered by The Odds API, it offers users a realistic experience of sports betting without any actual financial risk. The app's primary goal is to educate users about the intricacies of sports betting, making it an ideal platform for those looking to learn the ropes.</p>
             <div className='project-btns'>
               <NavLink to='example.com' className='btn'>View</NavLink>
-              <NavLink to='example.com' className='btn'>Source</NavLink>
+              <NavLink to='https://github.com/GerardoAP22/Sports-Betting-App-Frontend' className='btn'>Source</NavLink>
             </div>
           </div>
 

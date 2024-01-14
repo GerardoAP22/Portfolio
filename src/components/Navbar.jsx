@@ -45,20 +45,20 @@ function Navbar() {
       <div className='social-icons-container'>
         <ul>
           <li className='social-icons-item linkedin'>
-            <a className='social-icons-link' href="https://www.linkedin.com/in/gerardo-arriaza-pantaleon1/">
+            <a className='social-icons-link' href="https://www.linkedin.com/in/gerardo-arriaza-pantaleon1/" target="_blank" rel="noopener noreferrer">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='social-icons-item github'>
-            <a className='social-icons-link' href="https://github.com/GerardoAP22">
+            <a className='social-icons-link' href="https://github.com/GerardoAP22" target="_blank" rel="noopener noreferrer">
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='social-icons-item email'>
+          {/* <li className='social-icons-item email'>
             <a className='social-icons-link' href="/">
               Email <HiOutlineMail size={30} />
             </a>
-          </li>
+          </li> */}
           <li className='social-icons-item resume'>
             <a className='social-icons-link' href="/">
               Resume <BsFillPersonLinesFill size={30} />
