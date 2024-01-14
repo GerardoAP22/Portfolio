@@ -61,8 +61,8 @@ function Projects() {
           <div className='project-details'>
             <p className='project-desc'>AniPortal is a user-friendly platform featuring 50 anime shows. Logged-in users can easily add, edit, and delete reviews with text and a 1-10 rating. The site includes a page with the list of anime titles, each with a details button displaying title, synopsis, airing season, year, current status, and user reviews. Additionally, users can manage their watchlist by adding or removing shows with a simple click.</p>
             <div className='project-btns'>
-              <NavLink to='example.com' className='btn'>View</NavLink>
-              <NavLink to='example.com' className='btn'>Source</NavLink>
+              <NavLink to='https://aniportal-117465ef4fc0.herokuapp.com/' className='btn'>View</NavLink>
+              <NavLink to='https://github.com/GerardoAP22/AniPortal?tab=readme-ov-file' className='btn'>Source</NavLink>
             </div>
           </div>
 

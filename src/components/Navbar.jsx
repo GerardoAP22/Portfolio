@@ -26,7 +26,7 @@ function Navbar() {
         <Link to="about" smooth={true} duration={500} className="navbar-option">About</Link>
         <Link to="skills" smooth={true} duration={500} className="navbar-option">Skills</Link>
         <Link to="projects" smooth={true} duration={500} offset={-80} className="navbar-option">Projects</Link>
-        <Link to="contact" smooth={true} duration={500} className="navbar-option">Contact</Link>
+        <Link to="contact" smooth={true} duration={500} offset={-200} className="navbar-option">Contact</Link>
       </div>
 
       {/* Hamburger */}
@@ -35,7 +35,7 @@ function Navbar() {
         <Link to="about" smooth={true} duration={500} className="mobile-item" onClick={handleHamburgerClick}>About</Link>
         <Link to="skills" smooth={true} duration={500} offset={-80}className="mobile-item" onClick={handleHamburgerClick}>Skills</Link>
         <Link to="projects" smooth={true} duration={500} offset={-80} className="mobile-item" onClick={handleHamburgerClick}>Projects</Link>
-        <Link to="contact" smooth={true} duration={500} className="mobile-item" onClick={handleHamburgerClick}>Contact</Link>
+        <Link to="contact" smooth={true} duration={500} offset={-200} className="mobile-item" onClick={handleHamburgerClick}>Contact</Link>
       </div>
 
       <div onClick={handleHamburgerClick} className="hamburger-container">
