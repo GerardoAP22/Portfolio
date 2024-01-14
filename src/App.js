@@ -16,7 +16,7 @@ function App() {
       <Skills id='skills'/>
       <Projects id='projects'/>
       <Contact id='contact'/>
-      <Footer />
+      <Footer id='footer'/>
     </div>
   );
 }

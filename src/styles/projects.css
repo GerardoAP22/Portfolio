@@ -55,6 +55,10 @@
     color: #555;
 }
 
+.project-desc{
+    text-align: left;
+}
+
 .project-btns {
     display: flex;
     justify-content: space-between;

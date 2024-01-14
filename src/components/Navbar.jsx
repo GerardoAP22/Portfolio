@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import resume from "../resume/Gerardo_Resume.pdf"
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -60,7 +61,7 @@ function Navbar() {
             </a>
           </li> */}
           <li className='social-icons-item resume'>
-            <a className='social-icons-link' href="/">
+            <a className='social-icons-link' href={resume} download='Gerardo_Resume.pdf'>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
